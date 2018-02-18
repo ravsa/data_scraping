@@ -1,0 +1,1038 @@
+{
+    "core": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-aop",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-cache",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.retry",
+            "artifactId": "spring-retry",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-configuration-processor",
+            "optional": "true",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.security",
+            "artifactId": "spring-security-test",
+            "scope": "test",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.session",
+            "artifactId": "spring-session-core",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-validation",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jta-narayana",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jta-atomikos",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jta-bitronix",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-security",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.session",
+            "artifactId": "spring-session",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-devtools",
+            "scope": "runtime",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        },
+        {
+            "groupId": "org.projectlombok",
+            "artifactId": "lombok",
+            "optional": "true",
+            "tag": "core",
+            "description": "Spring Boot Development Tools"
+        }
+    ],
+    "web": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-hateoas",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "com.vaadin",
+            "artifactId": "vaadin-spring-boot-starter",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.apache.cxf",
+            "artifactId": "cxf-spring-boot-starter-jaxrs",
+            "version": "3.1.11",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.data",
+            "artifactId": "spring-data-rest-hal-browser",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.keycloak",
+            "artifactId": "keycloak-spring-boot-starter",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "io.projectreactor",
+            "artifactId": "reactor-test",
+            "scope": "test",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-web",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-mobile",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-web-services",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jersey",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.restdocs",
+            "artifactId": "spring-restdocs-mockmvc",
+            "scope": "test",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-websocket",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-webflux",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-rest",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "com.vaadin",
+            "artifactId": "vaadin-spring-boot-starter",
+            "version": "1.2.0",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        },
+        {
+            "groupId": "io.ratpack",
+            "artifactId": "ratpack-spring-boot",
+            "version": "1.1.1",
+            "tag": "web",
+            "description": "Full-stack web development with Tomcat and Spring MVC"
+        }
+    ],
+    "template engines": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-mustache",
+            "tag": "template engines",
+            "description": "Thymeleaf templating engine, including integration with Spring"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-thymeleaf",
+            "tag": "template engines",
+            "description": "Thymeleaf templating engine, including integration with Spring"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "template engines",
+            "description": "Thymeleaf templating engine, including integration with Spring"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-groovy-templates",
+            "tag": "template engines",
+            "description": "Thymeleaf templating engine, including integration with Spring"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-freemarker",
+            "tag": "template engines",
+            "description": "Thymeleaf templating engine, including integration with Spring"
+        }
+    ],
+    "sql": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "com.microsoft.sqlserver",
+            "artifactId": "mssql-jdbc",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-jpa",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.liquibase",
+            "artifactId": "liquibase-core",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.hsqldb",
+            "artifactId": "hsqldb",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.apache.derby",
+            "artifactId": "derby",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.mybatis.spring.boot",
+            "artifactId": "mybatis-spring-boot-starter",
+            "version": "1.2.2",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jdbc",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.postgresql",
+            "artifactId": "postgresql",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "mysql",
+            "artifactId": "mysql-connector-java",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "com.h2database",
+            "artifactId": "h2",
+            "scope": "runtime",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-jooq",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.mybatis.spring.boot",
+            "artifactId": "mybatis-spring-boot-starter",
+            "version": "1.3.1",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        },
+        {
+            "groupId": "org.flywaydb",
+            "artifactId": "flyway-core",
+            "tag": "sql",
+            "description": "Java Persistence API including spring-data-jpa, spring-orm and Hibernate"
+        }
+    ],
+    "nosql": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-elasticsearch",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-solr",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "de.flapdoodle.embed",
+            "artifactId": "de.flapdoodle.embed.mongo",
+            "scope": "test",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-redis-reactive",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-mongodb",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-redis",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-couchbase",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-cassandra",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-mongodb-reactive",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-couchbase-reactive",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-cassandra-reactive",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-neo4j",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-gemfire",
+            "tag": "nosql",
+            "description": "Redis key-value data store, including spring-data-redis"
+        }
+    ],
+    "messaging": [
+        {
+            "groupId": "org.springframework.kafka",
+            "artifactId": "spring-kafka",
+            "tag": "messaging",
+            "description": "Advanced Message Queuing Protocol via spring-rabbit"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "messaging",
+            "description": "Advanced Message Queuing Protocol via spring-rabbit"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-activemq",
+            "tag": "messaging",
+            "description": "Advanced Message Queuing Protocol via spring-rabbit"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-amqp",
+            "tag": "messaging",
+            "description": "Advanced Message Queuing Protocol via spring-rabbit"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-artemis",
+            "tag": "messaging",
+            "description": "Advanced Message Queuing Protocol via spring-rabbit"
+        }
+    ],
+    "cloud core": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-cloud-connectors",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-security",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-task",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-oauth2",
+            "tag": "cloud core",
+            "description": "Simplifies connecting to services in cloud platforms, including spring-cloud-connector and spring-cloud-cloudfoundry-connector"
+        }
+    ],
+    "cloud config": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-config",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-vault-config",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-consul-config",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-zookeeper-config",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-config-server",
+            "tag": "cloud config",
+            "description": "spring-cloud-config Client"
+        }
+    ],
+    "cloud discovery": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-zookeeper-discovery",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-cloudfoundry-discovery",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-eureka-client",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-eureka",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-eureka-server",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-consul-discovery",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-eureka-server",
+            "tag": "cloud discovery",
+            "description": "Service discovery using spring-cloud-netflix and Eureka"
+        }
+    ],
+    "cloud routing": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-openfeign",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-zuul",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-feign",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-zuul",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-gateway",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-ribbon",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-ribbon",
+            "tag": "cloud routing",
+            "description": "Intelligent and programmable routing with spring-cloud-netflix Zuul"
+        }
+    ],
+    "cloud circuit breaker": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-turbine-stream",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-hystrix",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-turbine-stream",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-hystrix",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-hystrix-dashboard",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-turbine",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-netflix-turbine",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-hystrix-dashboard",
+            "tag": "cloud circuit breaker",
+            "description": "Circuit breaker with spring-cloud-netflix Hystrix"
+        }
+    ],
+    "cloud tracing": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-sleuth-zipkin-stream",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-sleuth",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        },
+        {
+            "groupId": "io.zipkin.java",
+            "artifactId": "zipkin-autoconfigure-ui",
+            "scope": "runtime",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-zipkin",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-sleuth-stream",
+            "tag": "cloud tracing",
+            "description": "Distributed tracing via logs with spring-cloud-sleuth"
+        }
+    ],
+    "cloud messaging": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-bus",
+            "tag": "cloud messaging",
+            "description": "A simple control bus using Spring Cloud Stream (requires a binder, e.g. Kafka or RabbitMQ)"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-stream",
+            "tag": "cloud messaging",
+            "description": "A simple control bus using Spring Cloud Stream (requires a binder, e.g. Kafka or RabbitMQ)"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-stream-test-support",
+            "scope": "test",
+            "tag": "cloud messaging",
+            "description": "A simple control bus using Spring Cloud Stream (requires a binder, e.g. Kafka or RabbitMQ)"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-stream-reactive",
+            "tag": "cloud messaging",
+            "description": "A simple control bus using Spring Cloud Stream (requires a binder, e.g. Kafka or RabbitMQ)"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud messaging",
+            "description": "A simple control bus using Spring Cloud Stream (requires a binder, e.g. Kafka or RabbitMQ)"
+        }
+    ],
+    "cloud aws": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-aws",
+            "tag": "cloud aws",
+            "description": "AWS native services from spring-cloud-aws"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud aws",
+            "description": "AWS native services from spring-cloud-aws"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-aws-messaging",
+            "tag": "cloud aws",
+            "description": "AWS native services from spring-cloud-aws"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-aws-jdbc",
+            "tag": "cloud aws",
+            "description": "AWS native services from spring-cloud-aws"
+        }
+    ],
+    "cloud contract": [
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-contract-wiremock",
+            "scope": "test",
+            "tag": "cloud contract",
+            "description": "Test dependencies required for autogenerated tests"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-contract-stub-runner",
+            "scope": "test",
+            "tag": "cloud contract",
+            "description": "Test dependencies required for autogenerated tests"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "cloud contract",
+            "description": "Test dependencies required for autogenerated tests"
+        },
+        {
+            "groupId": "org.springframework.cloud",
+            "artifactId": "spring-cloud-starter-contract-verifier",
+            "scope": "test",
+            "tag": "cloud contract",
+            "description": "Test dependencies required for autogenerated tests"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter",
+            "tag": "cloud contract",
+            "description": "Test dependencies required for autogenerated tests"
+        }
+    ],
+    "pivotal cloud foundry": [
+        {
+            "groupId": "io.pivotal.spring.cloud",
+            "artifactId": "spring-cloud-services-starter-circuit-breaker",
+            "tag": "pivotal cloud foundry",
+            "description": "Config client on Pivotal Cloud Foundry"
+        },
+        {
+            "groupId": "io.pivotal.spring.cloud",
+            "artifactId": "spring-cloud-services-starter-config-client",
+            "tag": "pivotal cloud foundry",
+            "description": "Config client on Pivotal Cloud Foundry"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "pivotal cloud foundry",
+            "description": "Config client on Pivotal Cloud Foundry"
+        },
+        {
+            "groupId": "io.pivotal.spring.cloud",
+            "artifactId": "spring-cloud-services-starter-service-registry",
+            "tag": "pivotal cloud foundry",
+            "description": "Config client on Pivotal Cloud Foundry"
+        }
+    ],
+    "azure": [
+        {
+            "groupId": "com.microsoft.azure",
+            "artifactId": "azure-spring-boot",
+            "tag": "azure",
+            "description": "Auto-configuration for Azure Services (service bus, storage, active directory, cosmos DB, key vault and more)"
+        },
+        {
+            "groupId": "com.microsoft.azure",
+            "artifactId": "azure-active-directory-spring-boot-starter",
+            "tag": "azure",
+            "description": "Auto-configuration for Azure Services (service bus, storage, active directory, cosmos DB, key vault and more)"
+        },
+        {
+            "groupId": "com.microsoft.azure",
+            "artifactId": "azure-storage-spring-boot-starter",
+            "tag": "azure",
+            "description": "Auto-configuration for Azure Services (service bus, storage, active directory, cosmos DB, key vault and more)"
+        },
+        {
+            "groupId": "com.microsoft.azure",
+            "artifactId": "azure-keyvault-secrets-spring-boot-starter",
+            "tag": "azure",
+            "description": "Auto-configuration for Azure Services (service bus, storage, active directory, cosmos DB, key vault and more)"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "azure",
+            "description": "Auto-configuration for Azure Services (service bus, storage, active directory, cosmos DB, key vault and more)"
+        }
+    ],
+    "social": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "social",
+            "description": "spring-social-facebook"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-social-facebook",
+            "tag": "social",
+            "description": "spring-social-facebook"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-social-twitter",
+            "tag": "social",
+            "description": "spring-social-facebook"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-social-linkedin",
+            "tag": "social",
+            "description": "spring-social-facebook"
+        }
+    ],
+    "i/o": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-quartz",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-mail",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-integration",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.activiti",
+            "artifactId": "activiti-spring-boot-starter-basic",
+            "version": "5.21.0",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.apache.camel",
+            "artifactId": "camel-spring-boot-starter",
+            "version": "2.18.5",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.shell",
+            "artifactId": "spring-shell-starter",
+            "version": "2.0.0.M2",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-ldap",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.statemachine",
+            "artifactId": "spring-statemachine-starter",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-batch",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.apache.camel",
+            "artifactId": "camel-spring-boot-starter",
+            "version": "2.20.2",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        },
+        {
+            "groupId": "org.springframework.batch",
+            "artifactId": "spring-batch-test",
+            "scope": "test",
+            "tag": "i/o",
+            "description": "Spring Batch support"
+        }
+    ],
+    "ops": [
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-actuator",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-remote-shell",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-actuator-docs",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        },
+        {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        },
+        {
+            "groupId": "de.codecentric",
+            "artifactId": "spring-boot-admin-starter-server",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        },
+        {
+            "groupId": "de.codecentric",
+            "artifactId": "spring-boot-admin-starter-client",
+            "tag": "ops",
+            "description": "Production ready features to help you monitor and manage your application"
+        }
+    ]
+}
