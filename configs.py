@@ -38,7 +38,7 @@ class Config:
             "pendencies={pkg}&groupId=com.example&language=Java&version={ver}"
         )
 
-    def __getitem__(self, key):
+    def get_config(self, key):
         return {
             'spring': self.get_spring_config(),
             'vertx': self.get_vertx_config(),
