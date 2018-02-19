@@ -1,0 +1,2563 @@
+{
+    "EclipseLink": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-eclipselink",
+            "categories": "EclipseLink"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "EclipseLink"
+        }
+    ],
+    "EIP": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "EIP"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-core",
+            "categories": "EIP"
+        }
+    ],
+    "Cassandra": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Cassandra"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cassandra",
+            "categories": "Cassandra"
+        }
+    ],
+    "Batch": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "batch-jberet",
+            "categories": "Batch"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Batch"
+        }
+    ],
+    "Documentation": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "asciidoctorj",
+            "categories": "Documentation"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Documentation"
+        }
+    ],
+    "Camel": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-velocity",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-box",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-flatpack",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-vertx",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rss",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mvel",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ftp",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jcache",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-elasticsearch",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jsonpath",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-amqp",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-atom",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dozer",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-metrics",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-base64",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-snakeyaml",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-stream",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rest-swagger",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cdi",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mail",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-servlet",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-aws",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-bindy",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-splunk",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-elsql",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-undertow",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-batch",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rabbitmq",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jsch",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jdbc",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ahc-ws",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-avro",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sjms2",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zipfile",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-quartz2",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-context",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-nats",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ahc",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-core",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-tarfile",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-salesforce",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-irc",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-saxon",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-coap",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-git",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-script",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-gson",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-beanio",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xmlsecurity",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-netty4",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-twitter",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zipkin",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-snmp",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-barcode",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sjms",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-lucene",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-weather",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cxf",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-soap",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mina2",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-github",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-kafka",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-security",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-ldap",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-influxdb",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-servicenow",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ejb",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xmlbeans",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-kubernetes",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-pdf",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-linkedin",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-csv",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sap-netweaver",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-schematron",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-protobuf",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jmx",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xstream",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jgroups",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-olingo2",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-swagger",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-reactive-streams",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dns",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-hystrix",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sql",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jaxb",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-activemq",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mllp",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-hl7",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jacksonxml",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mybatis",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-http4",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-groovy",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mqtt",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-bean-validator",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-integration",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-infinispan",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-couchdb",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-braintree",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-facebook",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-castor",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jpa",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ssh",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-redis",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jackson",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mongodb",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-paho",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-smpp",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jbpm",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-syslog",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-freemarker",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cassandraql",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dropbox",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zookeeper",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ldap",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ognl",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-crypto",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-optaplanner",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-exec",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-stax",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-tagsoup",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jms",
+            "categories": "Camel"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jasypt",
+            "categories": "Camel"
+        }
+    ],
+    " Openshift": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": " Openshift"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "fluentd",
+            "categories": " Openshift"
+        }
+    ],
+    "Config": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Config"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-config",
+            "categories": "Config"
+        }
+    ],
+    "Data": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "neo4j",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-eclipselink",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "odata",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "flyway",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cassandra",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-spatial",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "datasources",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "orientdb",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "infinispan",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "mongodb",
+            "categories": "Data"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid",
+            "categories": "Data"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa",
+            "categories": "Data"
+        }
+    ],
+    " Monitoring": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaeger",
+            "categories": " Monitoring"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "opentracing",
+            "categories": " Monitoring"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": " Monitoring"
+        }
+    ],
+    " Tracing": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "opentracing",
+            "categories": " Tracing"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": " Tracing"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaeger",
+            "categories": " Tracing"
+        }
+    ],
+    " OpenTracing": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": " OpenTracing"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaeger",
+            "categories": " OpenTracing"
+        }
+    ],
+    "Fault Tolerance": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hystrix",
+            "categories": "Fault Tolerance"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Fault Tolerance"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-fault-tolerance",
+            "categories": "Fault Tolerance"
+        }
+    ],
+    "General": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "General"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "elytron",
+            "categories": "General"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "drools-server",
+            "categories": "General"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cli",
+            "categories": "General"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cdi-config",
+            "categories": "General"
+        }
+    ],
+    "GIS": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-spatial",
+            "categories": "GIS"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "GIS"
+        }
+    ],
+    "Eclipse Microprofile": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-metrics",
+            "categories": "Eclipse Microprofile"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Eclipse Microprofile"
+        }
+    ],
+    "Eclipse MicroProfile": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-health",
+            "categories": "Eclipse MicroProfile"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile",
+            "categories": "Eclipse MicroProfile"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-fault-tolerance",
+            "categories": "Eclipse MicroProfile"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Eclipse MicroProfile"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-config",
+            "categories": "Eclipse MicroProfile"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-jwt",
+            "categories": "Eclipse MicroProfile"
+        }
+    ],
+    "OpenTracing": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "opentracing",
+            "categories": "OpenTracing"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "OpenTracing"
+        }
+    ],
+    "Jaeger": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Jaeger"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaeger",
+            "categories": "Jaeger"
+        }
+    ],
+    "Integration": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-loopback",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-groovy",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mqtt",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-script",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-bean-validator",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-git",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-mongodb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-gson",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-integration",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-beanio",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-couchdb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-file",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ssh",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-weather",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-snmp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-braintree",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-facebook",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jpa",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-soap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-paho",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sjms",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-infinispan-hotrod",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-ldap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jbpm",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-crypto",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cassandraql",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-linkedin",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-exec",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-stax",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-schematron",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-optaplanner",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-simpledb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jmx",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-olingo2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jms",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xstream",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ftp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-couchbase",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mvel",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jsonpath",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-swagger",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-hl7",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-atom",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jacksonxml",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "remoting",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ldap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mail",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce-34",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-bindy",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jdbc",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ahc-ws",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-google",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-elsql",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-accumulo",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zipfile",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-context",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-quartz2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-tarfile",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-redis",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-infinispan",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-nats",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "messaging",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce-41",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ahc",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jackson",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-castor",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mongodb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-coap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-irc",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-saxon",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-cassandra",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-syslog",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-smpp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xmlsecurity",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zookeeper",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ognl",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-freemarker",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dropbox",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-barcode",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-netty4",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-twitter",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ldap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-zipkin",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-tagsoup",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ftp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-lucene",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-amazon-s3",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-github",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cxf",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-security",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jasypt",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-velocity",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "resource-adapters",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mina2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-servicenow",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-kafka",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "mail",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-ejb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-flatpack",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-box",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-vertx",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-influxdb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rss",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-excel",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-xmlbeans",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ws",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-kubernetes",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jcache",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-pdf",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-csv",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-odata-v2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-elasticsearch",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-amqp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jgroups",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sap-netweaver",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-protobuf",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-odata-v4",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-snakeyaml",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dozer",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-stream",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-metrics",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-reactive-streams",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-base64",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-swagger",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-dns",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-olap",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rest-swagger",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sql",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-cdi",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jaxb",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-servlet",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-activemq",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-spring-batch",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-rabbitmq",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mllp",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-aws",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-hystrix",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-splunk",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-avro",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-undertow",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-jdbc",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-jsch",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-sjms2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-mybatis",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-http4",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-solr",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-core",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "camel-salesforce",
+            "categories": "Integration"
+        }
+    ],
+    "JCA": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "JCA"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "vertx",
+            "categories": "JCA"
+        }
+    ],
+    "JWT": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "JWT"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-jwt",
+            "categories": "JWT"
+        }
+    ],
+    "JSON": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jsonp",
+            "categories": "JSON"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "JSON"
+        }
+    ],
+    "Hibernate": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Hibernate"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hibernate-validator",
+            "categories": "Hibernate"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hibernate-search",
+            "categories": "Hibernate"
+        }
+    ],
+    "Metrics": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Metrics"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-metrics",
+            "categories": "Metrics"
+        }
+    ],
+    "Logging": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "logging",
+            "categories": "Logging"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "logstash",
+            "categories": "Logging"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Logging"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "fluentd",
+            "categories": "Logging"
+        }
+    ],
+    "JavaEE": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jsonp",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "webservices",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jca",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-jaxb",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "remoting",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "bean-validation",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cdi",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-spatial",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "batch-jberet",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "resource-adapters",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "web",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ejb-remote",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "transactions",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ejb",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-jsonp",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-eclipselink",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "datasources",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-validator",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jmx",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cdi-jaxrsapi",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-multipart",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hibernate-validator",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jgroups",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "messaging",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jsf",
+            "categories": "JavaEE"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "undertow",
+            "categories": "JavaEE"
+        }
+    ],
+    "NoSQL": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "neo4j",
+            "categories": "NoSQL"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "NoSQL"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cassandra",
+            "categories": "NoSQL"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "orientdb",
+            "categories": "NoSQL"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "mongodb",
+            "categories": "NoSQL"
+        }
+    ],
+    "MongoDB": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "mongodb",
+            "categories": "MongoDB"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "MongoDB"
+        }
+    ],
+    "Management": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jolokia",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "monitor",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "swagger-webapp",
+            "categories": "Management"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "management-console",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "management",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "swagger",
+            "categories": "Management"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-health",
+            "categories": "Management"
+        }
+    ],
+    "MicroServices": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-config",
+            "categories": "MicroServices"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-fault-tolerance",
+            "categories": "MicroServices"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "MicroServices"
+        }
+    ],
+    "Spatial": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Spatial"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jpa-spatial",
+            "categories": "Spatial"
+        }
+    ],
+    "Spring": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Spring"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "spring",
+            "categories": "Spring"
+        }
+    ],
+    "Reporting": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Reporting"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jdr",
+            "categories": "Reporting"
+        }
+    ],
+    "OrientDB": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "orientdb",
+            "categories": "OrientDB"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "OrientDB"
+        }
+    ],
+    "Netflix OSS": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Netflix OSS"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured",
+            "categories": "Netflix OSS"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hystrix",
+            "categories": "Netflix OSS"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon",
+            "categories": "Netflix OSS"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured-client",
+            "categories": "Netflix OSS"
+        }
+    ],
+    "Service Discovery": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cdi-jaxrsapi",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "topology-consul",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "topology-openshift",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "topology-webapp",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured-client",
+            "categories": "Service Discovery"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "topology-jgroups",
+            "categories": "Service Discovery"
+        }
+    ],
+    "Monitoring": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Monitoring"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-metrics",
+            "categories": "Monitoring"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "zipkin-jaxrs",
+            "categories": "Monitoring"
+        }
+    ],
+    "Neo4j": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Neo4j"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "neo4j",
+            "categories": "Neo4j"
+        }
+    ],
+    "Security": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured-client",
+            "categories": "Security"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "keycloak-server",
+            "categories": "Security"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-jwt",
+            "categories": "Security"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Security"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "ribbon-secured",
+            "categories": "Security"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "keycloak",
+            "categories": "Security"
+        }
+    ],
+    "Reactive": [
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "vertx",
+            "categories": "Reactive"
+        }
+    ],
+    "Teiid": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-odata-v4",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-cassandra",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-olap",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce-34",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ldap",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ftp",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-accumulo",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-google",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-amazon-s3",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-jdbc",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-solr",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-simpledb",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-couchbase",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-salesforce-41",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-file",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-loopback",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-excel",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-odata-v2",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-ws",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-swagger",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-infinispan-hotrod",
+            "categories": "Teiid"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "teiid-mongodb",
+            "categories": "Teiid"
+        }
+    ],
+    "Validation": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "hibernate-validator",
+            "categories": "Validation"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "bean-validation",
+            "categories": "Validation"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-validator",
+            "categories": "Validation"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Validation"
+        }
+    ],
+    "Web": [
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "cdi",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "mod_cluster",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "swagger",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "undertow",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "spring",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "keycloak",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "swagger-webapp",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-validator",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "webservices",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "zipkin-jaxrs",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jsf",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile-jwt",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "javafx",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "management-console",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "web",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-jsonp",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "microprofile",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-jaxb",
+            "categories": "Web"
+        },
+        {
+            "groupId": "org.wildfly.swarm",
+            "artifactId": "jaxrs-multipart",
+            "categories": "Web"
+        },
+        {
+            "groupId": "javax",
+            "artifactId": "javaee-api",
+            "version": "7.0",
+            "scope": "provided",
+            "categories": "Web"
+        }
+    ]
+}
