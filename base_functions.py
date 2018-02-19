@@ -3,26 +3,22 @@
 
 from xmltodict import parse
 from collections import defaultdict
+from configs import Config
 import requests
 import zipfile
 import io
 import json
 
 
-class BaseFunctions:
+class BaseFunctions(Config):
 
-    def __init__(self, config_file, output_file):
-        try:
-            self.config_file = config_file
-            self._output_file = output_file
-            with open(self.config_file) as file:
-                self._config = json.load(file)
-            self._base_url = self._config.get('base_url')
-            self.processed_data = defaultdict(list)
-            self._versions = self._config.get('versions', [])
-        except FileNotFoundError:
-            print("Unable to find {} file in current dir".format(
-                self.config_file))
+    def __init__(self, eco, output_file):
+        super().__init__()
+        self._config = self.get_config(eco)
+        self._output_file = output_file
+        self._base_url = self._config.get('base_url')
+        self.processed_data = defaultdict(list)
+        self._versions = self._config.get('versions', [])
 
     def delete_duplicates(self):
         for grp, dependencies in self.processed_data.items():
@@ -45,4 +41,4 @@ class BaseFunctions:
             print("SAVED: ", self._output_file)
         except FileNotFoundError:
             print("Unable to process {} file in current dir".format(
-                self.config_file))
+                self._output_file))
