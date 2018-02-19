@@ -1,0 +1,1398 @@
+{
+    "Core": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Core"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Core"
+        }
+    ],
+    "Web": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web",
+            "version": "3.5.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web",
+            "version": "3.4.2",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web",
+            "version": "3.4.1",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web",
+            "version": "3.4.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Web"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Web"
+        }
+    ],
+    "Web Client": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web-client",
+            "version": "3.4.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web-client",
+            "version": "3.4.2",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web-client",
+            "version": "3.4.1",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-web-client",
+            "version": "3.5.0",
+            "categories": "Web Client"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Web Client"
+        }
+    ],
+    "Data Access": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mongo-client",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-jdbc-client",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mongo-client",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mysql-postgresql-client",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-sql-common",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mysql-postgresql-client",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-sql-common",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-redis-client",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mysql-postgresql-client",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-jdbc-client",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-jdbc-client",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mongo-client",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-sql-common",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-sql-common",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mysql-postgresql-client",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-redis-client",
+            "version": "3.4.2",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-redis-client",
+            "version": "3.5.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-jdbc-client",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mongo-client",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-redis-client",
+            "version": "3.4.0",
+            "categories": "Data Access"
+        }
+    ],
+    "Integration": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mail-client",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-stomp",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "none",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-rabbitmq-client",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-consul-client",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-rabbitmq-client",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-amqp-bridge",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-amqp-bridge",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-rabbitmq-client",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "none",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-stomp",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-kafka-client",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mail-client",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mail-client",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-kafka-client",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-amqp-bridge",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-amqp-bridge",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-rabbitmq-client",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-consul-client",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-consul-client",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-consul-client",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-stomp",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-mail-client",
+            "version": "3.5.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-kafka-client",
+            "version": "3.4.0",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-stomp",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-kafka-client",
+            "version": "3.4.2",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "none",
+            "version": "3.4.1",
+            "categories": "Integration"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "none",
+            "version": "3.4.2",
+            "categories": "Integration"
+        }
+    ],
+    "Event Bus Bridge": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-camel-bridge",
+            "version": "3.5.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-tcp-eventbus-bridge",
+            "version": "3.4.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-tcp-eventbus-bridge",
+            "version": "3.4.2",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-camel-bridge",
+            "version": "3.4.2",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-tcp-eventbus-bridge",
+            "version": "3.4.1",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-camel-bridge",
+            "version": "3.4.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-tcp-eventbus-bridge",
+            "version": "3.5.0",
+            "categories": "Event Bus Bridge"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-camel-bridge",
+            "version": "3.4.1",
+            "categories": "Event Bus Bridge"
+        }
+    ],
+    "Authentication and Authorisation": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-mongo",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-shiro",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jwt",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-shiro",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jdbc",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-oauth2",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-common",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-common",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-oauth2",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jdbc",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-mongo",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jdbc",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-common",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jwt",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-oauth2",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jwt",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-common",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-shiro",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-mongo",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-oauth2",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jwt",
+            "version": "3.5.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-jdbc",
+            "version": "3.4.2",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-shiro",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Authentication and Authorisation"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-auth-mongo",
+            "version": "3.4.1",
+            "categories": "Authentication and Authorisation"
+        }
+    ],
+    "Reactive": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-reactive-streams",
+            "version": "3.4.1",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-reactive-streams",
+            "version": "3.5.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-reactive-streams",
+            "version": "3.4.2",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-reactive-streams",
+            "version": "3.4.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Reactive"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Reactive"
+        }
+    ],
+    "Microservices": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-config",
+            "version": "3.4.1",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-circuit-breaker",
+            "version": "3.4.2",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-config",
+            "version": "3.5.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-service-discovery",
+            "version": "3.4.1",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-service-discovery",
+            "version": "3.4.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-config",
+            "version": "3.4.2",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-circuit-breaker",
+            "version": "3.4.1",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-config",
+            "version": "3.4.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-circuit-breaker",
+            "version": "3.5.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-circuit-breaker",
+            "version": "3.4.0",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-service-discovery",
+            "version": "3.4.2",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Microservices"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-service-discovery",
+            "version": "3.5.0",
+            "categories": "Microservices"
+        }
+    ],
+    "IoT": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "IoT"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "IoT"
+        }
+    ],
+    "DevOps": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-dropwizard-metrics",
+            "version": "3.5.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-hawkular-metrics",
+            "version": "3.4.1",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-dropwizard-metrics",
+            "version": "3.4.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-dropwizard-metrics",
+            "version": "3.4.2",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-hawkular-metrics",
+            "version": "3.5.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-health-check",
+            "version": "3.4.1",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-health-check",
+            "version": "3.5.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-health-check",
+            "version": "3.4.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-health-check",
+            "version": "3.4.2",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-dropwizard-metrics",
+            "version": "3.4.1",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-hawkular-metrics",
+            "version": "3.4.0",
+            "categories": "DevOps"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-hawkular-metrics",
+            "version": "3.4.2",
+            "categories": "DevOps"
+        }
+    ],
+    "Testing": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Testing"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Testing"
+        }
+    ],
+    "Clustering": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Clustering"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Clustering"
+        }
+    ],
+    "Services": [
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.2",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.0",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.0",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.2",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.5.0",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.4.1",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-unit",
+            "version": "3.4.1",
+            "categories": "Services"
+        },
+        {
+            "groupId": "io.vertx",
+            "artifactId": "vertx-core",
+            "version": "3.5.0",
+            "categories": "Services"
+        }
+    ]
+}

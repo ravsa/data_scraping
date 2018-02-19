@@ -16,6 +16,6 @@ class WildflyIO(BaseFunctions):
                 ('&d='.join([frac['artifactId']
                              for frac in item.get('fractions')]))
             resp = self.get_query_result('', pkg_query)
-            self.processed_data[group] += [dict(pkg, **{'tag': group})
+            self.processed_data[group] += [dict(pkg, **{'categories': group})
                                            for pkg in resp]
             print("GROUP: ", group)
