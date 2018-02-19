@@ -6,8 +6,8 @@ from base_functions import BaseFunctions
 
 class VertxIO(BaseFunctions):
 
-    def __init__(self, config_file, output_file):
-        super().__init__(config_file, output_file)
+    def __init__(self, eco, output_file):
+        super().__init__(eco, output_file)
 
     def process(self):
         for version in self._versions:
