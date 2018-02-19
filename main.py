@@ -14,7 +14,7 @@ def main():
     for eco, runner in ecosystems:
         try:
             print("RUNNING Job for {}".format(eco))
-            runner(eco + '_config.json', eco + '_dump.json').run()
+            runner(eco, eco + '_dump.json').run()
         except Exception as e:
             print('ERROR: fetching data from {}'.format(eco))
             print(str(e))

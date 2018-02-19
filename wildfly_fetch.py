@@ -6,8 +6,8 @@ from base_functions import BaseFunctions
 
 class WildflyIO(BaseFunctions):
 
-    def __init__(self, config_file, output_file):
-        super().__init__(config_file, output_file)
+    def __init__(self, eco, output_file):
+        super().__init__(eco, output_file)
 
     def process(self):
         for item in self._config.get('dependencies', []):
