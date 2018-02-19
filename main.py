@@ -2,14 +2,23 @@
 # -*- coding: utf-8 -*-
 
 from spring_fetch import SpringIO
-from vertex_fetch import VertexIO
+from vertx_fetch import VertxIO
 from wildfly_fetch import WildflyIO
 
 
-if __name__ == '__main__':
+def main():
     ecosystems = [('spring', SpringIO),
-                  ('vertex', VertexIO),
+                  ('vertx', VertxIO),
                   ('wildfly', WildflyIO)
                   ]
     for eco, runner in ecosystems:
-        runner(eco + '_dump.json').run()
+        try:
+            print("RUNNING Job for {}".format(eco))
+            runner(eco + '_config.json', eco + '_dump.json').run()
+        except Exception as e:
+            print('ERROR: fetching data from {}'.format(eco))
+            print(str(e))
+
+
+if __name__ == '__main__':
+    main()
