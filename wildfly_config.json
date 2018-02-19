@@ -1,5 +1,5 @@
 {
-    "base_url": "http://generator.wildfly-swarm.io/generator?g=com.example&a=demo&sv=2018.1.0",
+    "base_url": "http://generator.wildfly-swarm.io/generator?g=com.example&a=demo&sv=2018.1.0{pkg}",
     "dependencies": [
     {
         "fractions": [
