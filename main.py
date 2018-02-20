@@ -1,22 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from spring_fetch import SpringIO
-from vertx_fetch import VertxIO
-from wildfly_fetch import WildflyIO
+from process import SpringIO, VertxIO, WildflyIO
 
 
 def main():
-    ecosystems = [('spring', SpringIO),
-                  ('vertx', VertxIO),
-                  ('wildfly', WildflyIO)
-                  ]
-    for eco, runner in ecosystems:
+    for runner in (SpringIO, VertxIO, WildflyIO):
         try:
-            print("RUNNING Job for {}".format(eco))
-            runner(eco, eco + '_dump.json').run()
+            _temp_obj = runner()
+            print("RUNNING Job for {}".format(str(_temp_obj)))
+            _temp_obj.run()
         except Exception as e:
-            print('ERROR: fetching data from {}'.format(eco))
+            print('ERROR: fetching data from {}'.format(str(_temp_obj)))
             print(str(e))
 
 

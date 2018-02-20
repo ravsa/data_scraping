@@ -12,10 +12,10 @@ import json
 
 class BaseFunctions(Config):
 
-    def __init__(self, eco, output_file):
+    def __init__(self, eco):
         super().__init__()
-        self._config = self.get_config(eco)
-        self._output_file = output_file
+        self.sub_eco = eco
+        self._config = self.get_config(self.sub_eco)
         self._base_url = self._config.get('base_url')
         self.processed_data = defaultdict(list)
         self._versions = self._config.get('versions', [])
@@ -35,10 +35,12 @@ class BaseFunctions(Config):
     def run(self):
         self.process()
         self.delete_duplicates()
-        try:
-            with open(self._output_file, 'w') as file:
-                json.dump(self.processed_data, file, indent=4)
-            print("SAVED: ", self._output_file)
-        except FileNotFoundError:
-            print("Unable to process {} file in current dir".format(
-                self._output_file))
+        print("Process Completed for {}".format(self.sub_eco))
+        if self._output_file:
+            try:
+                with open(self._output_file, 'w') as file:
+                    json.dump(self.processed_data, file, indent=4)
+                print("SAVED: ", self._output_file)
+            except FileNotFoundError:
+                print("Unable to process {} file in current dir".format(
+                    self._output_file))
