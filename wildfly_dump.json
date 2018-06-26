@@ -3,14 +3,16 @@
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-eclipselink",
-            "categories": "EclipseLink"
+            "categories": "EclipseLink",
+            "description": "Java Persistence API with EclipseLink"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "EclipseLink"
+            "categories": "EclipseLink",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "EIP": [
@@ -19,12 +21,14 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "EIP"
+            "categories": "EIP",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-core",
-            "categories": "EIP"
+            "categories": "EIP",
+            "description": "Java Integration Framework implementing the Enterprise Integration Patterns, doing the mediation and routing of the messages using a DSL Language (Java, Spring XML or Blueprint XML). This core module contains the logic to support the different patterns, many languages (Simple, constant, header, body) to manipulate the content & expressions to take decisions during the routing."
         }
     ],
     "Cassandra": [
@@ -33,659 +37,788 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Cassandra"
+            "categories": "Cassandra",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cassandra",
-            "categories": "Cassandra"
+            "categories": "Cassandra",
+            "description": "Cassandra integration"
         }
     ],
     "Batch": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "batch-jberet",
-            "categories": "Batch"
+            "categories": "Batch",
+            "description": "Java EE Batch with JBeret"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Batch"
+            "categories": "Batch",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Documentation": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "asciidoctorj",
-            "categories": "Documentation"
+            "categories": "Documentation",
+            "description": "AsciidoctorJ is the official library for running Asciidoctor on the JVM. Using AsciidoctorJ, you can convert AsciiDoc content or analyze the structure of a parsed AsciiDoc document from Java and other JVM languages."
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Documentation"
+            "categories": "Documentation",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Camel": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-velocity",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Transforms the message using a Velocity template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-box",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For uploading downloading and managing files folders groups collaborations etc on box DOT com."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-flatpack",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The flatpack component supports fixed width and delimited file parsing via the FlatPack library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-vertx",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The vertx component is used for sending and receive messages from a vertx event bus."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rss",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The rss component is used for consuming RSS feeds."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mvel",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Transforms the message using a MVEL template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ftp",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The ftp component is used for uploading or downloading files from FTP servers."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jcache",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jcache component enables you to perform caching operations using JSR107/JCache as cache implementation."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-elasticsearch",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The elasticsearch component is used for interfacing with ElasticSearch server."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jsonpath",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For JSonPath expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-amqp",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Messaging with AMQP protocol using Apache QPid Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-atom",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The atom component is used for consuming Atom RSS feeds."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dozer",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The dozer component provides the ability to map between Java beans using the Dozer mapping library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-metrics",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To collect various metrics directly from Camel routes using the DropWizard metrics library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-base64",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Base64 data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-snakeyaml",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel SnakeYAML support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-stream",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The stream: component provides access to the system-in system-out and system-err streams as well as allowing streaming of file and URL."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rest-swagger",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "An awesome REST endpoint backed by Swagger specifications."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cdi",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component cdi"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mail",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To send or receive emails using imap/pop3 or smtp protocols."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-servlet",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To use a HTTP Servlet as entry for Camel routes when running in a servlet container."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-aws",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The aws-cw component is used for sending metrics to an Amazon CloudWatch."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-bindy",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Bindy data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-splunk",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The splunk component allows to publish or search for events in Splunk."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-elsql",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The elsql component is an extension to the existing SQL Component that uses ElSql to define the SQL queries."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-undertow",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The undertow component provides HTTP-based endpoints for consuming and producing HTTP requests."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-batch",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The spring-batch component allows to send messages to Spring Batch for further processing."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rabbitmq",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The rabbitmq component allows you produce and consume messages from RabbitMQ instances."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jsch",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To copy files using the secure copy protocol (SCP)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jdbc",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jdbc component enables you to access databases through JDBC where SQL queries are sent in the message body."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ahc-ws",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To exchange data with external Websocket servers using Async Http Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-avro",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Working with Apache Avro for data serialization."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sjms2",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The sjms2 component (simple jms) allows messages to be sent to (or consumed from) a JMS Queue or Topic (uses JMS 2.x API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zipfile",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Zip file support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-quartz2",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Provides a scheduled delivery of messages using the Quartz 2.x scheduler."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-context",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The context component allows to send/receive messages between Camel routes in a black box way."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-nats",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The nats component allows you produce and consume messages from NATS."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ahc",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To call external HTTP services using Async Http Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-core",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Java Integration Framework implementing the Enterprise Integration Patterns, doing the mediation and routing of the messages using a DSL Language (Java, Spring XML or Blueprint XML). This core module contains the logic to support the different patterns, many languages (Simple, constant, header, body) to manipulate the content & expressions to take decisions during the routing."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-tarfile",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Tar file support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-salesforce",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The salesforce component is used for integrating Camel with the massive Salesforce API."
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-irc",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The irc component implements an IRC (Internet Relay Chat) transport."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-saxon",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Transforms the message using a XQuery template using Saxon."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-coap",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The coap component is used for sending and receiving messages from COAP capable devices."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-git",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The git component is used for working with git repositories."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-script",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For JavaScript expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-gson",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Gson support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-beanio",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel BeanIO data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xmlsecurity",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Used to sign and verify exchanges using the XML signature specification."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-netty4",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Socket level networking using TCP or UDP with the Netty 4.x library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-twitter",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "This component integrates with Twitter to send tweets or search for tweets and more."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zipkin",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component zipkin"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-snmp",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The snmp component gives you the ability to poll SNMP capable devices or receiving traps."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-barcode",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Barcode (e.g. QRcode, PDF417, DataMatrix) support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sjms",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The sjms component (simple jms) allows messages to be sent to (or consumed from) a JMS Queue or Topic (uses JMS 1.x API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-lucene",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To insert or query from Apache Lucene databases."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-weather",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Polls the weather information from Open Weather Map."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cxf",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The cxf component is used for SOAP WebServices using Apache CXF."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-soap",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel SOAP support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mina2",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Socket level networking using TCP or UDP with the Apache Mina 2.x library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-github",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The github component is used for integrating Camel with github."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-kafka",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The kafka component allows messages to be sent to (or consumed from) Apache Kafka brokers."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-security",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component spring-security"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-ldap",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The spring-ldap component allows you to perform searches in LDAP servers using filters as the message payload."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-influxdb",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The influxdb component allows you to interact with InfluxDB a time series database."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-servicenow",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The servicenow component is used to integrate Camel with ServiceNow cloud services."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ejb",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The ejb component is for invoking EJB Java beans from Camel."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xmlbeans",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel XMLBeans support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-kubernetes",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The kubernetes component allows to work with Kubernetes PaaS."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-pdf",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The pdf components provides the ability to create modify or extract content from PDF documents."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-linkedin",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The linkedin component is uses for retrieving LinkedIn user profiles connections companies groups posts etc."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-csv",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel CSV data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sap-netweaver",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The sap-netweaver component integrates with the SAP NetWeaver Gateway using HTTP transports."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-schematron",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Validates the payload of a message using the Schematron Library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-protobuf",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Google Protobuf data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jmx",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jmx component allows to receive JMX notifications."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xstream",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel XStream support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jgroups",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jgroups component provides exchange of messages between Camel and JGroups clusters."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-olingo2",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component olingo2"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-swagger",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component swagger"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-reactive-streams",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Reactive Camel using reactive streams"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dns",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To lookup domain information and run DNS queries using DNSJava."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-hystrix",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component hystrix"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sql",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The sql component allows you to work with databases using JDBC SQL queries."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jaxb",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel JAXB support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-activemq",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component activemq"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mllp",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Provides functionality required by Healthcare providers to communicate with other systems using the MLLP protocol."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-hl7",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel HL7 support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jacksonxml",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Jackson XML support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mybatis",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Performs a query poll insert update or delete in a relational database using MyBatis."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-http4",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For calling out to external HTTP servers using Apache HTTP Client 4.x."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-groovy",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For Groovy expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mqtt",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component for communicating with MQTT M2M message brokers using FuseSource MQTT Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-bean-validator",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The Validator component performs bean validation of the message body using the Java Bean Validation API."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-integration",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Bridges Camel with Spring Integration."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-infinispan",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For reading/writing from/to Infinispan distributed key/value store and data grid."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-couchdb",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The couchdb component is used for integrate with CouchDB databases."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-braintree",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The braintree component is used for integrating with the Braintree Payment System."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-facebook",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The Facebook component provides access to all of the Facebook APIs accessible using Facebook4J."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-castor",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Castor data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jpa",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jpa component enables you to store and retrieve Java objects from databases using JPA."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ssh",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The ssh component enables access to SSH servers such that you can send an SSH command and process the response."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-redis",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The spring-redis component allows sending and receiving messages from Redis."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jackson",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Jackson support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mongodb",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component for working with documents stored in MongoDB database."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-paho",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component for communicating with MQTT M2M message brokers using Eclipse Paho MQTT Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-smpp",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "To send and receive SMS using a SMSC (Short Message Service Center)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jbpm",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jbpm component provides integration with jBPM (Business Process Management)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-syslog",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel Syslog support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-freemarker",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Transforms the message using a FreeMarker template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cassandraql",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The cql component aims at integrating Cassandra 2.0 using the CQL3 API (not the Thrift API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dropbox",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For uploading downloading and managing files folders groups collaborations etc on dropbox DOT com."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zookeeper",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The zookeeper component allows interaction with a ZooKeeper cluster."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ldap",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The ldap component allows you to perform searches in LDAP servers using filters as the message payload."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ognl",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "For OGNL expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-crypto",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The crypto component is used for signing and verifying exchanges using the Signature Service of the Java Cryptographic Extension (JCE)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-optaplanner",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Solves the planning problem contained in a message with OptaPlanner."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-exec",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The exec component can be used to execute OS system commands."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-stax",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The stax component allows messages to be process through a SAX ContentHandler."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-tagsoup",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Camel TagSoup support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jms",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "The jms component allows messages to be sent to (or consumed from) a JMS Queue or Topic."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jasypt",
-            "categories": "Camel"
+            "categories": "Camel",
+            "description": "Component jasypt"
         }
     ],
     " Openshift": [
@@ -694,12 +827,14 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": " Openshift"
+            "categories": " Openshift",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "fluentd",
-            "categories": " Openshift"
+            "categories": " Openshift",
+            "description": "Write log entries to Fluentd"
         }
     ],
     "Config": [
@@ -708,119 +843,140 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Config"
+            "categories": "Config",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-config",
-            "categories": "Config"
+            "categories": "Config",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Config"
         }
     ],
     "Data": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "neo4j",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Neo4j integration"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-eclipselink",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Java Persistence API with EclipseLink"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "odata",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Exposes OData REST interface on configured source"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "flyway",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Evolve your Database Schema easily and reliably across all your instances"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cassandra",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Cassandra integration"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-spatial",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Java Persistence API with Spatial Extensions"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "datasources",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Datasources for installing database drivers, etc"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "orientdb",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "OrientDB integration"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "infinispan",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Distributed in-memory key/value store"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "mongodb",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "MongoDB integration"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "A data virtualization system that allows applications to use data from multiple, heterogeneous data stores."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa",
-            "categories": "Data"
+            "categories": "Data",
+            "description": "Java Persistence API with Hibernate and H2 datasource"
         }
     ],
     " Monitoring": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaeger",
-            "categories": " Monitoring"
+            "categories": " Monitoring",
+            "description": "Jaeger integration, including the OpenTracing fraction"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "opentracing",
-            "categories": " Monitoring"
+            "categories": " Monitoring",
+            "description": "OpenTracing integration via TraceResolver and GlobalTracer"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": " Monitoring"
+            "categories": " Monitoring",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     " Tracing": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "opentracing",
-            "categories": " Tracing"
+            "categories": " Tracing",
+            "description": "OpenTracing integration via TraceResolver and GlobalTracer"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": " Tracing"
+            "categories": " Tracing",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaeger",
-            "categories": " Tracing"
+            "categories": " Tracing",
+            "description": "Jaeger integration, including the OpenTracing fraction"
         }
     ],
     " OpenTracing": [
@@ -829,31 +985,36 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": " OpenTracing"
+            "categories": " OpenTracing",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaeger",
-            "categories": " OpenTracing"
+            "categories": " OpenTracing",
+            "description": "Jaeger integration, including the OpenTracing fraction"
         }
     ],
     "Fault Tolerance": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hystrix",
-            "categories": "Fault Tolerance"
+            "categories": "Fault Tolerance",
+            "description": "Latency and Fault Tolerance, such as Circuit Breaker, with Hystrix from Netflix OSS"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Fault Tolerance"
+            "categories": "Fault Tolerance",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-fault-tolerance",
-            "categories": "Fault Tolerance"
+            "categories": "Fault Tolerance",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Fault Tolerance"
         }
     ],
     "General": [
@@ -862,103 +1023,120 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "General"
+            "categories": "General",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "elytron",
-            "categories": "General"
+            "categories": "General",
+            "description": "Elytron"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "drools-server",
-            "categories": "General"
+            "categories": "General",
+            "description": "Drools Server"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cli",
-            "categories": "General"
+            "categories": "General",
+            "description": "JBoss CLI"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cdi-config",
-            "categories": "General"
+            "categories": "General",
+            "description": "CDI Configuration"
         }
     ],
     "GIS": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-spatial",
-            "categories": "GIS"
+            "categories": "GIS",
+            "description": "Java Persistence API with Spatial Extensions"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "GIS"
+            "categories": "GIS",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Eclipse Microprofile": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-metrics",
-            "categories": "Eclipse Microprofile"
+            "categories": "Eclipse Microprofile",
+            "description": "Metrics export for MicroProfile"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Eclipse Microprofile"
+            "categories": "Eclipse Microprofile",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Eclipse MicroProfile": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-health",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "Health endpoints for your application"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "Implementation of MicroProfile.io"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-fault-tolerance",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Fault Tolerance"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-config",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Config"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-jwt",
-            "categories": "Eclipse MicroProfile"
+            "categories": "Eclipse MicroProfile",
+            "description": "An implementation of the MP-JWT authentication and authorization"
         }
     ],
     "OpenTracing": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "opentracing",
-            "categories": "OpenTracing"
+            "categories": "OpenTracing",
+            "description": "OpenTracing integration via TraceResolver and GlobalTracer"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "OpenTracing"
+            "categories": "OpenTracing",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Jaeger": [
@@ -967,766 +1145,918 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Jaeger"
+            "categories": "Jaeger",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaeger",
-            "categories": "Jaeger"
+            "categories": "Jaeger",
+            "description": "Jaeger integration, including the OpenTracing fraction"
         }
     ],
     "Integration": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-loopback",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Loopback translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-groovy",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For Groovy expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mqtt",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component for communicating with MQTT M2M message brokers using FuseSource MQTT Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-script",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For JavaScript expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-bean-validator",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The Validator component performs bean validation of the message body using the Java Bean Validation API."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-git",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The git component is used for working with git repositories."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-mongodb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid MongoDB translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-gson",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Gson support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-integration",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Bridges Camel with Spring Integration."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-beanio",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel BeanIO data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-couchdb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The couchdb component is used for integrate with CouchDB databases."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-file",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid File translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ssh",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The ssh component enables access to SSH servers such that you can send an SSH command and process the response."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-weather",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Polls the weather information from Open Weather Map."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-snmp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The snmp component gives you the ability to poll SNMP capable devices or receiving traps."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-braintree",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The braintree component is used for integrating with the Braintree Payment System."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-facebook",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The Facebook component provides access to all of the Facebook APIs accessible using Facebook4J."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jpa",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jpa component enables you to store and retrieve Java objects from databases using JPA."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-soap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel SOAP support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-paho",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component for communicating with MQTT M2M message brokers using Eclipse Paho MQTT Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sjms",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The sjms component (simple jms) allows messages to be sent to (or consumed from) a JMS Queue or Topic (uses JMS 1.x API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-infinispan-hotrod",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Teiid Infinispan Hotrod based Translator to acache contents on Infinispan cluster using the probuf as the schema"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-ldap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The spring-ldap component allows you to perform searches in LDAP servers using filters as the message payload."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jbpm",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jbpm component provides integration with jBPM (Business Process Management)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-crypto",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The crypto component is used for signing and verifying exchanges using the Signature Service of the Java Cryptographic Extension (JCE)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cassandraql",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The cql component aims at integrating Cassandra 2.0 using the CQL3 API (not the Thrift API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-linkedin",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The linkedin component is uses for retrieving LinkedIn user profiles connections companies groups posts etc."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-exec",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The exec component can be used to execute OS system commands."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-stax",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The stax component allows messages to be process through a SAX ContentHandler."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-schematron",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Validates the payload of a message using the Schematron Library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-optaplanner",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Solves the planning problem contained in a message with OptaPlanner."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-simpledb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid SimpleDB translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jmx",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jmx component allows to receive JMX notifications."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-olingo2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component olingo2"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jms",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jms component allows messages to be sent to (or consumed from) a JMS Queue or Topic."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xstream",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel XStream support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ftp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The ftp component is used for uploading or downloading files from FTP servers."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-couchbase",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Teiid Couchbase Translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mvel",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Transforms the message using a MVEL template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jsonpath",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For JSonPath expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-swagger",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Swagger translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-hl7",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel HL7 support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-atom",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The atom component is used for consuming Atom RSS feeds."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jacksonxml",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Jackson XML support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "remoting",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Connecting to remote containers"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ldap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid LDAP translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mail",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To send or receive emails using imap/pop3 or smtp protocols."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce-34",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Salesforce translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-bindy",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Bindy data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jdbc",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jdbc component enables you to access databases through JDBC where SQL queries are sent in the message body."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ahc-ws",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To exchange data with external Websocket servers using Async Http Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-google",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Google translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-elsql",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The elsql component is an extension to the existing SQL Component that uses ElSql to define the SQL queries."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-accumulo",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Accumulo translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zipfile",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Zip file support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-context",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The context component allows to send/receive messages between Camel routes in a black box way."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-quartz2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Provides a scheduled delivery of messages using the Quartz 2.x scheduler."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-tarfile",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Tar file support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-redis",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The spring-redis component allows sending and receiving messages from Redis."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-infinispan",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For reading/writing from/to Infinispan distributed key/value store and data grid."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-nats",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The nats component allows you produce and consume messages from NATS."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "messaging",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "JMS Messaging with ActiveMQ"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce-41",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Teiid Salesforce API Version 41 Translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ahc",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To call external HTTP services using Async Http Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jackson",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Jackson support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-castor",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Castor data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mongodb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component for working with documents stored in MongoDB database."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-coap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The coap component is used for sending and receiving messages from COAP capable devices."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-irc",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The irc component implements an IRC (Internet Relay Chat) transport."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-saxon",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Transforms the message using a XQuery template using Saxon."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-cassandra",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Cassandra translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-syslog",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Syslog support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Salesforce translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-smpp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To send and receive SMS using a SMSC (Short Message Service Center)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xmlsecurity",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Used to sign and verify exchanges using the XML signature specification."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zookeeper",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The zookeeper component allows interaction with a ZooKeeper cluster."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ognl",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For OGNL expressions and predicates"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-freemarker",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Transforms the message using a FreeMarker template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dropbox",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For uploading downloading and managing files folders groups collaborations etc on dropbox DOT com."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-barcode",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Barcode (e.g. QRcode, PDF417, DataMatrix) support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-netty4",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Socket level networking using TCP or UDP with the Netty 4.x library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-twitter",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "This component integrates with Twitter to send tweets or search for tweets and more."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ldap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The ldap component allows you to perform searches in LDAP servers using filters as the message payload."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-zipkin",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component zipkin"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-tagsoup",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel TagSoup support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ftp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid File FTP translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-lucene",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To insert or query from Apache Lucene databases."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-amazon-s3",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Teiid Amazon S3 Translator to access files on Amazon S3"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-github",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The github component is used for integrating Camel with github."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cxf",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The cxf component is used for SOAP WebServices using Apache CXF."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-security",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component spring-security"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jasypt",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component jasypt"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-velocity",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Transforms the message using a Velocity template."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "resource-adapters",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Resource Adapters deployed with .rar files"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mina2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Socket level networking using TCP or UDP with the Apache Mina 2.x library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-servicenow",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The servicenow component is used to integrate Camel with ServiceNow cloud services."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-kafka",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The kafka component allows messages to be sent to (or consumed from) Apache Kafka brokers."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "mail",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Java Mail API for messaging"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-ejb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The ejb component is for invoking EJB Java beans from Camel."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-flatpack",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The flatpack component supports fixed width and delimited file parsing via the FlatPack library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-box",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For uploading downloading and managing files folders groups collaborations etc on box DOT com."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-vertx",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The vertx component is used for sending and receive messages from a vertx event bus."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-influxdb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The influxdb component allows you to interact with InfluxDB a time series database."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rss",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The rss component is used for consuming RSS feeds."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-excel",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Excel translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-xmlbeans",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel XMLBeans support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ws",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid Web Service (REST) translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-kubernetes",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The kubernetes component allows to work with Kubernetes PaaS."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jcache",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jcache component enables you to perform caching operations using JSR107/JCache as cache implementation."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-pdf",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The pdf components provides the ability to create modify or extract content from PDF documents."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-csv",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel CSV data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-odata-v2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid OData V2 translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-elasticsearch",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The elasticsearch component is used for interfacing with ElasticSearch server."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-amqp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Messaging with AMQP protocol using Apache QPid Client."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jgroups",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The jgroups component provides exchange of messages between Camel and JGroups clusters."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sap-netweaver",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The sap-netweaver component integrates with the SAP NetWeaver Gateway using HTTP transports."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-protobuf",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Google Protobuf data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-odata-v4",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid OData V4 translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-snakeyaml",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel SnakeYAML support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dozer",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The dozer component provides the ability to map between Java beans using the Dozer mapping library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-stream",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The stream: component provides access to the system-in system-out and system-err streams as well as allowing streaming of file and URL."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-metrics",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To collect various metrics directly from Camel routes using the DropWizard metrics library."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-reactive-streams",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Reactive Camel using reactive streams"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-base64",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel Base64 data format support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-swagger",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component swagger"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-dns",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To lookup domain information and run DNS queries using DNSJava."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-olap",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid OLAP translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rest-swagger",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "An awesome REST endpoint backed by Swagger specifications."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sql",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The sql component allows you to work with databases using JDBC SQL queries."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-cdi",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component cdi"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jaxb",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Camel JAXB support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-servlet",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To use a HTTP Servlet as entry for Camel routes when running in a servlet container."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-activemq",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component activemq"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-spring-batch",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The spring-batch component allows to send messages to Spring Batch for further processing."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-rabbitmq",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The rabbitmq component allows you produce and consume messages from RabbitMQ instances."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mllp",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Provides functionality required by Healthcare providers to communicate with other systems using the MLLP protocol."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-aws",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The aws-cw component is used for sending metrics to an Amazon CloudWatch."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-hystrix",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Component hystrix"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-splunk",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The splunk component allows to publish or search for events in Splunk."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-avro",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Working with Apache Avro for data serialization."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-undertow",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The undertow component provides HTTP-based endpoints for consuming and producing HTTP requests."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-jdbc",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid JDBC and Hive translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-jsch",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "To copy files using the secure copy protocol (SCP)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-sjms2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The sjms2 component (simple jms) allows messages to be sent to (or consumed from) a JMS Queue or Topic (uses JMS 2.x API)."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-mybatis",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Performs a query poll insert update or delete in a relational database using MyBatis."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-http4",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "For calling out to external HTTP servers using Apache HTTP Client 4.x."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-solr",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Adds Teiid SOLR translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-core",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Java Integration Framework implementing the Enterprise Integration Patterns, doing the mediation and routing of the messages using a DSL Language (Java, Spring XML or Blueprint XML). This core module contains the logic to support the different patterns, many languages (Simple, constant, header, body) to manipulate the content & expressions to take decisions during the routing."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "camel-salesforce",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "The salesforce component is used for integrating Camel with the massive Salesforce API."
         }
     ],
     "JCA": [
@@ -1735,12 +2065,14 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "JCA"
+            "categories": "JCA",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "vertx",
-            "categories": "JCA"
+            "categories": "JCA",
+            "description": "Deploys the Vert.x JCA Adapter"
         }
     ],
     "JWT": [
@@ -1749,26 +2081,30 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "JWT"
+            "categories": "JWT",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-jwt",
-            "categories": "JWT"
+            "categories": "JWT",
+            "description": "An implementation of the MP-JWT authentication and authorization"
         }
     ],
     "JSON": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jsonp",
-            "categories": "JSON"
+            "categories": "JSON",
+            "description": "JSON-P"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "JSON"
+            "categories": "JSON",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Hibernate": [
@@ -1777,17 +2113,20 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Hibernate"
+            "categories": "Hibernate",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hibernate-validator",
-            "categories": "Hibernate"
+            "categories": "Hibernate",
+            "description": "Validation annotations going beyond Bean Validation"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hibernate-search",
-            "categories": "Hibernate"
+            "categories": "Hibernate",
+            "description": "Hibernate Search transparently indexes your objects and offers fast regular, full-text and geolocation search. Ease of use and easy clustering are core."
         }
     ],
     "Metrics": [
@@ -1796,296 +2135,350 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Metrics"
+            "categories": "Metrics",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-metrics",
-            "categories": "Metrics"
+            "categories": "Metrics",
+            "description": "Metrics export for MicroProfile"
         }
     ],
     "Logging": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "logging",
-            "categories": "Logging"
+            "categories": "Logging",
+            "description": "Customizing the Logging for WildFly"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "logstash",
-            "categories": "Logging"
+            "categories": "Logging",
+            "description": "Write log entries to Logstash for use in ELK stack"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Logging"
+            "categories": "Logging",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "fluentd",
-            "categories": "Logging"
+            "categories": "Logging",
+            "description": "Write log entries to Fluentd"
         }
     ],
     "JavaEE": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jsonp",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "JSON-P"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "webservices",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Web Services with CXF"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jca",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java EE Connector Architecture"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Implementation of MicroProfile.io"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-jaxb",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Add JAXB binding support for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "remoting",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Connecting to remote containers"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "bean-validation",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Define constraints on object models with annotations"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cdi",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "CDI with Weld"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java Persistence API with Hibernate and H2 datasource"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-spatial",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java Persistence API with Spatial Extensions"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "batch-jberet",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java EE Batch with JBeret"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "RESTful Web Services with RESTEasy"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "resource-adapters",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Resource Adapters deployed with .rar files"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "web",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Equivalent to Web Profile"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ejb-remote",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Access EJBs in remote containers"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "transactions",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "JTA distributed transactions with Narayana"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ejb",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Use EJBs in your application"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-jsonp",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Enable JSON-P interchange format for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-eclipselink",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java Persistence API with EclipseLink"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "datasources",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Datasources for installing database drivers, etc"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-validator",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Validation support for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jmx",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Expose resources as MBeans"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cdi-jaxrsapi",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Generates implementation of external service from interface which can then be injected to call that service."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-multipart",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Multipart support for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hibernate-validator",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Validation annotations going beyond Bean Validation"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jgroups",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Reliable messaging for creating a cluster"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "messaging",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "JMS Messaging with ActiveMQ"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jsf",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Java Server Faces for developing UIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "undertow",
-            "categories": "JavaEE"
+            "categories": "JavaEE",
+            "description": "Servlet Container with Undertow"
         }
     ],
     "NoSQL": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "neo4j",
-            "categories": "NoSQL"
+            "categories": "NoSQL",
+            "description": "Neo4j integration"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "NoSQL"
+            "categories": "NoSQL",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cassandra",
-            "categories": "NoSQL"
+            "categories": "NoSQL",
+            "description": "Cassandra integration"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "orientdb",
-            "categories": "NoSQL"
+            "categories": "NoSQL",
+            "description": "OrientDB integration"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "mongodb",
-            "categories": "NoSQL"
+            "categories": "NoSQL",
+            "description": "MongoDB integration"
         }
     ],
     "MongoDB": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "mongodb",
-            "categories": "MongoDB"
+            "categories": "MongoDB",
+            "description": "MongoDB integration"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "MongoDB"
+            "categories": "MongoDB",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Management": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jolokia",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Deploys the jolokia.war to activate JMX-HTTP bridge as an alternative to JSR-160 connectors"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "monitor",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Health endpoints for your application"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "swagger-webapp",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "UI for Swagger to visualize the generated swagger.json"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "management-console",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "UI to manage a running WildFly/Swarm server"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "management",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Enables WildFly management capabilities"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "swagger",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Generate swagger.json for all JAX-RS endpoints in your application"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-health",
-            "categories": "Management"
+            "categories": "Management",
+            "description": "Health endpoints for your application"
         }
     ],
     "MicroServices": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-config",
-            "categories": "MicroServices"
+            "categories": "MicroServices",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Config"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-fault-tolerance",
-            "categories": "MicroServices"
+            "categories": "MicroServices",
+            "description": "WildFly: Swarm Fraction for Eclipse MicroProfile Fault Tolerance"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "MicroServices"
+            "categories": "MicroServices",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Spatial": [
@@ -2094,12 +2487,14 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Spatial"
+            "categories": "Spatial",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jpa-spatial",
-            "categories": "Spatial"
+            "categories": "Spatial",
+            "description": "Java Persistence API with Spatial Extensions"
         }
     ],
     "Spring": [
@@ -2108,12 +2503,14 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Spring"
+            "categories": "Spring",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "spring",
-            "categories": "Spring"
+            "categories": "Spring",
+            "description": "RESTful services with Spring WebMVC"
         }
     ],
     "Reporting": [
@@ -2122,26 +2519,30 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Reporting"
+            "categories": "Reporting",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jdr",
-            "categories": "Reporting"
+            "categories": "Reporting",
+            "description": "Enables the gathering of diagnostic data for use in remote analysis of error conditions. Although the data is in a simple format and could be useful to anyone, primarily useful for JBoss EAP subscribers who would provide the data to Red Hat when requesting support"
         }
     ],
     "OrientDB": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "orientdb",
-            "categories": "OrientDB"
+            "categories": "OrientDB",
+            "description": "OrientDB integration"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "OrientDB"
+            "categories": "OrientDB",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Netflix OSS": [
@@ -2150,27 +2551,32 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Netflix OSS"
+            "categories": "Netflix OSS",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured",
-            "categories": "Netflix OSS"
+            "categories": "Netflix OSS",
+            "description": "Provides security token propagation across invocations when using Netflix Ribbon and Keycloak"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hystrix",
-            "categories": "Netflix OSS"
+            "categories": "Netflix OSS",
+            "description": "Latency and Fault Tolerance, such as Circuit Breaker, with Hystrix from Netflix OSS"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon",
-            "categories": "Netflix OSS"
+            "categories": "Netflix OSS",
+            "description": "Client side load balancing with Netflix Ribbon"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured-client",
-            "categories": "Netflix OSS"
+            "categories": "Netflix OSS",
+            "description": "Ribbon Secured Client"
         }
     ],
     "Service Discovery": [
@@ -2179,47 +2585,56 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Client side load balancing with Netflix Ribbon"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Provides security token propagation across invocations when using Netflix Ribbon and Keycloak"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cdi-jaxrsapi",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Generates implementation of external service from interface which can then be injected to call that service."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "topology-consul",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Service Discovery with Hashicorp Consul"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "topology-openshift",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Service Discovery with OpenShift"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "topology-webapp",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Server-Sent Events of instances being added/removed from cluster"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured-client",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Ribbon Secured Client"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "topology-jgroups",
-            "categories": "Service Discovery"
+            "categories": "Service Discovery",
+            "description": "Utilizes JGroups as a Service Registry that is discoverable"
         }
     ],
     "Monitoring": [
@@ -2228,17 +2643,20 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Monitoring"
+            "categories": "Monitoring",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-metrics",
-            "categories": "Monitoring"
+            "categories": "Monitoring",
+            "description": "Metrics export for MicroProfile"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "zipkin-jaxrs",
-            "categories": "Monitoring"
+            "categories": "Monitoring",
+            "description": "Enables the zipkin instrumentation for JAX-RS resources"
         }
     ],
     "Neo4j": [
@@ -2247,46 +2665,54 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Neo4j"
+            "categories": "Neo4j",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "neo4j",
-            "categories": "Neo4j"
+            "categories": "Neo4j",
+            "description": "Neo4j integration"
         }
     ],
     "Security": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured-client",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "Ribbon Secured Client"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "keycloak-server",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "Running Keycloak in an uber jar"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-jwt",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "An implementation of the MP-JWT authentication and authorization"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "ribbon-secured",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "Provides security token propagation across invocations when using Netflix Ribbon and Keycloak"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "keycloak",
-            "categories": "Security"
+            "categories": "Security",
+            "description": "Securing your RESTful services"
         }
     ],
     "Reactive": [
@@ -2295,269 +2721,320 @@
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "vertx",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Deploys the Vert.x JCA Adapter"
         }
     ],
     "Teiid": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-odata-v4",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid OData V4 translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-cassandra",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Cassandra translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Salesforce translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-olap",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid OLAP translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce-34",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Salesforce translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ldap",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid LDAP translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ftp",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid File FTP translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-accumulo",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Accumulo translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-google",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Google translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-amazon-s3",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Teiid Amazon S3 Translator to access files on Amazon S3"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-jdbc",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid JDBC and Hive translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-solr",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid SOLR translator"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Java(TM) EE 8 Specification APIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-simpledb",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid SimpleDB translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-couchbase",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Teiid Couchbase Translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-salesforce-41",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Teiid Salesforce API Version 41 Translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-file",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid File translators"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-loopback",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Loopback translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-excel",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Excel translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-odata-v2",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid OData V2 translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-ws",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Web Service (REST) translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-swagger",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid Swagger translator"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-infinispan-hotrod",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Teiid Infinispan Hotrod based Translator to acache contents on Infinispan cluster using the probuf as the schema"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "teiid-mongodb",
-            "categories": "Teiid"
+            "categories": "Teiid",
+            "description": "Adds Teiid MongoDB translator"
         }
     ],
     "Validation": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "hibernate-validator",
-            "categories": "Validation"
+            "categories": "Validation",
+            "description": "Validation annotations going beyond Bean Validation"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "bean-validation",
-            "categories": "Validation"
+            "categories": "Validation",
+            "description": "Define constraints on object models with annotations"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-validator",
-            "categories": "Validation"
+            "categories": "Validation",
+            "description": "Validation support for RESTful services"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Validation"
+            "categories": "Validation",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ],
     "Web": [
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "cdi",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "CDI with Weld"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "mod_cluster",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Modcluster support"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "swagger",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Generate swagger.json for all JAX-RS endpoints in your application"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "undertow",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Servlet Container with Undertow"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "spring",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "RESTful services with Spring WebMVC"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "keycloak",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Securing your RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "swagger-webapp",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "UI for Swagger to visualize the generated swagger.json"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-validator",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Validation support for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "RESTful Web Services with RESTEasy"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "webservices",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Web Services with CXF"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "zipkin-jaxrs",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Enables the zipkin instrumentation for JAX-RS resources"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jsf",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Java Server Faces for developing UIs"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile-jwt",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "An implementation of the MP-JWT authentication and authorization"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "javafx",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "For using JavaFX classes in your application."
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "management-console",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "UI to manage a running WildFly/Swarm server"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "web",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Equivalent to Web Profile"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-jsonp",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Enable JSON-P interchange format for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "microprofile",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Implementation of MicroProfile.io"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-jaxb",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Add JAXB binding support for RESTful services"
         },
         {
             "groupId": "org.wildfly.swarm",
             "artifactId": "jaxrs-multipart",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Multipart support for RESTful services"
         },
         {
             "groupId": "javax",
             "artifactId": "javaee-api",
             "version": "7.0",
             "scope": "provided",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Java(TM) EE 8 Specification APIs"
         }
     ]
 }
