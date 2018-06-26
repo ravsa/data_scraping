@@ -4,49 +4,57 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Core"
+            "categories": "Core",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         }
     ],
     "Web": [
@@ -54,73 +62,85 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web",
             "version": "3.5.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Web is a tool-kit for writing sophisticated modern web applications and HTTP microservices."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web",
             "version": "3.4.2",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Web is a tool-kit for writing sophisticated modern web applications and HTTP microservices."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web",
             "version": "3.4.1",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Web is a tool-kit for writing sophisticated modern web applications and HTTP microservices."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web",
             "version": "3.4.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Web is a tool-kit for writing sophisticated modern web applications and HTTP microservices."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Web"
+            "categories": "Web",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         }
     ],
     "Web Client": [
@@ -128,73 +148,85 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-web-client",
             "version": "3.4.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x Web Client is an easy to use advanced HTTP client."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web-client",
             "version": "3.4.2",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x Web Client is an easy to use advanced HTTP client."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web-client",
             "version": "3.4.1",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x Web Client is an easy to use advanced HTTP client."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-web-client",
             "version": "3.5.0",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x Web Client is an easy to use advanced HTTP client."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Web Client"
+            "categories": "Web Client",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         }
     ],
     "Data Access": [
@@ -202,169 +234,197 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-mongo-client",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-jdbc-client",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mongo-client",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mysql-postgresql-client",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-sql-common",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mysql-postgresql-client",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-sql-common",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-redis-client",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mysql-postgresql-client",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-jdbc-client",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-jdbc-client",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mongo-client",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-sql-common",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-sql-common",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mysql-postgresql-client",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-redis-client",
             "version": "3.4.2",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-redis-client",
             "version": "3.5.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-jdbc-client",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mongo-client",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-redis-client",
             "version": "3.4.0",
-            "categories": "Data Access"
+            "categories": "Data Access",
+            "description": "Vert.x provides a few different asynchronous clients for accessing various data stores from your application. You don't have to use these clients - you could use clients direct from the vendor if you prefer (e.g. MongoDB provide their own cool async and reactive clients), but these provide a simple async API which is available in various languages."
         }
     ],
     "Integration": [
@@ -372,217 +432,253 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-mail-client",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a simple SMTP mail client so you can send emails from your applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-stomp",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides an implementation of the STOMP protocol."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "none",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a Java Connector Architecture (JCA) adaptor which allows it to interoperate with any JavaEE application server."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-rabbitmq-client",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with RabbitMQ."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-consul-client",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Consul."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-rabbitmq-client",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with RabbitMQ."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-amqp-bridge",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A bridge for interacting with an AMQP 1.0 broker or router."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-amqp-bridge",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A bridge for interacting with an AMQP 1.0 broker or router."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-rabbitmq-client",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with RabbitMQ."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "none",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a Java Connector Architecture (JCA) adaptor which allows it to interoperate with any JavaEE application server."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-stomp",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides an implementation of the STOMP protocol."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-kafka-client",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Apache Kafka."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mail-client",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a simple SMTP mail client so you can send emails from your applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mail-client",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a simple SMTP mail client so you can send emails from your applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-kafka-client",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Apache Kafka."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-amqp-bridge",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A bridge for interacting with an AMQP 1.0 broker or router."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-amqp-bridge",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A bridge for interacting with an AMQP 1.0 broker or router."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-rabbitmq-client",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with RabbitMQ."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-consul-client",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Consul."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-consul-client",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Consul."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-consul-client",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Consul."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-stomp",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides an implementation of the STOMP protocol."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-mail-client",
             "version": "3.5.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a simple SMTP mail client so you can send emails from your applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-kafka-client",
             "version": "3.4.0",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Apache Kafka."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-stomp",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides an implementation of the STOMP protocol."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-kafka-client",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "A client to interact with Apache Kafka."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "none",
             "version": "3.4.1",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a Java Connector Architecture (JCA) adaptor which allows it to interoperate with any JavaEE application server."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "none",
             "version": "3.4.2",
-            "categories": "Integration"
+            "categories": "Integration",
+            "description": "Vert.x provides a Java Connector Architecture (JCA) adaptor which allows it to interoperate with any JavaEE application server."
         }
     ],
     "Event Bus Bridge": [
@@ -590,97 +686,113 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-camel-bridge",
             "version": "3.5.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Apache Camel endpoints and routes"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-tcp-eventbus-bridge",
             "version": "3.4.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Vert.x from any application thanks to a TCP socket."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-tcp-eventbus-bridge",
             "version": "3.4.2",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Vert.x from any application thanks to a TCP socket."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-camel-bridge",
             "version": "3.4.2",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Apache Camel endpoints and routes"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-tcp-eventbus-bridge",
             "version": "3.4.1",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Vert.x from any application thanks to a TCP socket."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-camel-bridge",
             "version": "3.4.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Apache Camel endpoints and routes"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-tcp-eventbus-bridge",
             "version": "3.5.0",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Vert.x from any application thanks to a TCP socket."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-camel-bridge",
             "version": "3.4.1",
-            "categories": "Event Bus Bridge"
+            "categories": "Event Bus Bridge",
+            "description": "An eventbus bridge that lets you interact with Apache Camel endpoints and routes"
         }
     ],
     "Authentication and Authorisation": [
@@ -688,193 +800,225 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-mongo",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using MongoDB"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-shiro",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using Apache Shiro"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jwt",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using JSON web tokens (JWT)"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-shiro",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using Apache Shiro"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jdbc",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation backed by JDBC"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-oauth2",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation for OAuth2"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-common",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "The Common Auth APIs"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-common",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "The Common Auth APIs"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-oauth2",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation for OAuth2"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jdbc",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation backed by JDBC"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-mongo",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using MongoDB"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jdbc",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation backed by JDBC"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-common",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "The Common Auth APIs"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jwt",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using JSON web tokens (JWT)"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-oauth2",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation for OAuth2"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jwt",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using JSON web tokens (JWT)"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-common",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "The Common Auth APIs"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-shiro",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using Apache Shiro"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-mongo",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using MongoDB"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-oauth2",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation for OAuth2"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jwt",
             "version": "3.5.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using JSON web tokens (JWT)"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-jdbc",
             "version": "3.4.2",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation backed by JDBC"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-shiro",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using Apache Shiro"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-auth-mongo",
             "version": "3.4.1",
-            "categories": "Authentication and Authorisation"
+            "categories": "Authentication and Authorisation",
+            "description": "Auth implementation using MongoDB"
         }
     ],
     "Reactive": [
@@ -882,73 +1026,85 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-reactive-streams",
             "version": "3.4.1",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x supports reactive streams so your applications can interoperate with other reactive systems such as Akka or Project Reactor."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-reactive-streams",
             "version": "3.5.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x supports reactive streams so your applications can interoperate with other reactive systems such as Akka or Project Reactor."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-reactive-streams",
             "version": "3.4.2",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x supports reactive streams so your applications can interoperate with other reactive systems such as Akka or Project Reactor."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-reactive-streams",
             "version": "3.4.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x supports reactive streams so your applications can interoperate with other reactive systems such as Akka or Project Reactor."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Reactive"
+            "categories": "Reactive",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         }
     ],
     "Microservices": [
@@ -956,121 +1112,141 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-config",
             "version": "3.4.1",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an extensible way to configure Vert.x applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-circuit-breaker",
             "version": "3.4.2",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an implementation of the circuit breaker pattern for Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-config",
             "version": "3.5.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an extensible way to configure Vert.x applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-service-discovery",
             "version": "3.4.1",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component lets you publish, lookup and bind to any type of services."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-service-discovery",
             "version": "3.4.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component lets you publish, lookup and bind to any type of services."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-config",
             "version": "3.4.2",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an extensible way to configure Vert.x applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-circuit-breaker",
             "version": "3.4.1",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an implementation of the circuit breaker pattern for Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-config",
             "version": "3.4.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an extensible way to configure Vert.x applications."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-circuit-breaker",
             "version": "3.5.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an implementation of the circuit breaker pattern for Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-circuit-breaker",
             "version": "3.4.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component provides an implementation of the circuit breaker pattern for Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-service-discovery",
             "version": "3.4.2",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component lets you publish, lookup and bind to any type of services."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-service-discovery",
             "version": "3.5.0",
-            "categories": "Microservices"
+            "categories": "Microservices",
+            "description": "This component lets you publish, lookup and bind to any type of services."
         }
     ],
     "IoT": [
@@ -1078,49 +1254,57 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "IoT"
+            "categories": "IoT",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         }
     ],
     "DevOps": [
@@ -1128,121 +1312,141 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-dropwizard-metrics",
             "version": "3.5.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and exposes them using Dropwizard."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-hawkular-metrics",
             "version": "3.4.1",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and send them to Hawkular."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-dropwizard-metrics",
             "version": "3.4.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and exposes them using Dropwizard."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-dropwizard-metrics",
             "version": "3.4.2",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and exposes them using Dropwizard."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-hawkular-metrics",
             "version": "3.5.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and send them to Hawkular."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-health-check",
             "version": "3.4.1",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component provides a simple way to expose health checks."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-health-check",
             "version": "3.5.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component provides a simple way to expose health checks."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-health-check",
             "version": "3.4.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component provides a simple way to expose health checks."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-health-check",
             "version": "3.4.2",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component provides a simple way to expose health checks."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-dropwizard-metrics",
             "version": "3.4.1",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and exposes them using Dropwizard."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-hawkular-metrics",
             "version": "3.4.0",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and send them to Hawkular."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-hawkular-metrics",
             "version": "3.4.2",
-            "categories": "DevOps"
+            "categories": "DevOps",
+            "description": "This component captures metrics from Vert.x core components and send them to Hawkular."
         }
     ],
     "Testing": [
@@ -1250,49 +1454,57 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Testing"
+            "categories": "Testing",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         }
     ],
     "Clustering": [
@@ -1300,49 +1512,57 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Clustering"
+            "categories": "Clustering",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         }
     ],
     "Services": [
@@ -1350,49 +1570,57 @@
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.2",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.0",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.0",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.2",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.5.0",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.4.1",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-unit",
             "version": "3.4.1",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x-Unit is an unit testing tool-kit especially design to work well with asynchronous code."
         },
         {
             "groupId": "io.vertx",
             "artifactId": "vertx-core",
             "version": "3.5.0",
-            "categories": "Services"
+            "categories": "Services",
+            "description": "Vert.x core contains fairly low level functionality including support for HTTP, TCP, file system access, and various other features. You can use this directly in your own applications, and it's used by many of the other components of Vert.x"
         }
     ]
 }
